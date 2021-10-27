@@ -7,3 +7,13 @@ Usage:
 echo "PT3H7M38S" | duration parse
 # 03:07:38
 ```
+
+Install / Update
+```
+curl -L https://github.com/fredrik01/duration/releases/latest/download/duration_darwin_amd64.tar.gz -o duration.tar.gz
+mkdir /tmp/duration
+tar -xvf duration.tar.gz -C /tmp/duration
+mv /tmp/duration/duration /usr/local/bin/duration
+rm duration.tar.gz
+rm -r /tmp/duration
+```
